@@ -22,7 +22,7 @@
 - Bash
 # File Structure
 ```
-workspace
+upload
 ├── convertToVideo.sh
 ├── csvs
 │   └── rename_files.sh
