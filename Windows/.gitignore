@@ -1,0 +1,26 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+*.env
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Others
+*.log
+*.swp
+.DS_Store
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Windows specific
+Thumbs.db
+desktop.ini
