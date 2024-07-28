@@ -22,6 +22,7 @@
 - Bash
 # File Structure
 ```
+annotations
 upload
 ├── convertToVideo.sh
 ├── csvs
@@ -31,7 +32,8 @@ upload
 ├── visualizeCreator.py
 └── visualizeDetector.py
 ```
-
+# WARNING
+remember to rename the zip files to video* i.e. serially
 ## Enable Python Virtual Environment
 
 To create python3 environment use 
@@ -54,6 +56,14 @@ source ~/Desktop/workspace/bin/activate
 pip install opencv-python
 OR
 pip3 install opencv-python
+```
+## For Ubuntu
+```
+sudo apt install ffmpeg
+```
+## Install openCV
+```
+pip install opencv-python
 ```
 
 ## Run the Master Script
